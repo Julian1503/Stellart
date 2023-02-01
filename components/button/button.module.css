@@ -1,0 +1,16 @@
+.btn {
+  width: 170px;
+  height:49px;
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFFFFF;
+  background: #2EA581;
+  border-radius: 66px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

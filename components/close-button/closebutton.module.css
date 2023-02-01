@@ -1,0 +1,13 @@
+.btn_close :nth-child(1) {
+  transform: rotate(-45deg);
+}
+
+.btn_close :nth-child(2) {
+  transform: matrix(-0.71, -0.71, -0.71, 0.71, 0, 0);
+}
+
+.btn_close span {
+  width: 24.44px;
+  left: 15px;
+  top: 20.28px;
+}
