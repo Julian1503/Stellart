@@ -1,10 +1,10 @@
 import Link from "next/link";
 import classes from "./button.module.css";
 
-type ButtonProps = { link: string; text: string, className?: string};
-function Button({className, text, link }: ButtonProps) {
+type ButtonProps = { width: number | string, height: number | string, link: string; text: string, className?: string, hasShadow?: boolean};
+function Button({width, height,className, text, link, hasShadow }: ButtonProps) {
   return (
-    <Link className={`${classes.btn} ${className}`} href={link}>
+    <Link style={{width: width, height: height}} className={`${classes.btn} ${hasShadow ? classes.shadow : ""} ${className}`} href={link}>
       {text}
     </Link>
   );
