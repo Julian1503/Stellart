@@ -14,13 +14,8 @@
   gap: 4rem;
 }
 
-.btn_close {
+.btn_close_menu_closed {
   display: none;
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  right: 1.5rem;
-  top: 1rem;
 }
 
 @media (max-width: 834px) {
@@ -60,9 +55,14 @@
     
   }
 
-  .btn_close {
+  .btn_close_menu_opened {
     display: block;
     z-index: 2;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 1.5rem;
+    top: 1rem;
   }
 
   .open {

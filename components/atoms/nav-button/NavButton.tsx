@@ -5,11 +5,12 @@ type NavButtonProps = {
   className?: string;
   link: string;
   text: string;
+  id: number | string;
 };
 
-function NavButton({ className, link, text }: NavButtonProps) {
+function NavButton({id, link, text, className} : NavButtonProps) {
   return (
-    <li className={`${classes.link}${className ? className : ""}`}>
+    <li data-testid={`btnNav${id}`} className={`${classes.link} ${className ? className : ""}`}>
       <Link href={link}>{text}</Link>
     </li>
   );

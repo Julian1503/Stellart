@@ -1,0 +1,270 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar component matches snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <nav
+        class="navbar"
+        data-testid="navbar"
+      >
+        <div
+          class="image_container"
+          data-testid="logo-container"
+        >
+          <img
+            alt="Logo"
+            data-nimg="1"
+            data-testid="logo"
+            decoding="async"
+            height="100"
+            loading="lazy"
+            src="/images/stellart.svg"
+            style="color: transparent;"
+            width="190"
+          />
+        </div>
+        <span
+          arial-label="Burger button"
+          class="menu_btn btn_burger"
+          data-testid="btnBurger"
+        >
+          <span
+            class="burger"
+          >
+            <span
+              class="line"
+            />
+            <span
+              class="line"
+            />
+            <span
+              class="line"
+            />
+          </span>
+        </span>
+        <div
+          class="links_container  "
+          data-testid="menu"
+        >
+          <span
+            class="btn_close btn_close_menu_closed"
+            data-testid="btnClose"
+          >
+            <span
+              class="line"
+            />
+            <span
+              class="line"
+            />
+          </span>
+          <ul>
+            <li
+              class="link "
+              data-testid="btnNav1"
+            >
+              <a
+                href="/home"
+              >
+                Home
+              </a>
+            </li>
+            <li
+              class="link "
+              data-testid="btnNav2"
+            >
+              <a
+                href="/about"
+              >
+                About
+              </a>
+            </li>
+            <li
+              class="link "
+              data-testid="btnNav3"
+            >
+              <a
+                href="/contact"
+              >
+                Contact
+              </a>
+            </li>
+            <li>
+              <a
+                arial-name="Button"
+                class="btn shadow undefined"
+                data-testid="btn"
+                href="/Login"
+                style="width: 170px; height: 49px;"
+              >
+                Login
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class=" overlay   "
+          data-testid="overlay"
+        />
+      </nav>
+    </div>
+  </body>,
+  "container": <div>
+    <nav
+      class="navbar"
+      data-testid="navbar"
+    >
+      <div
+        class="image_container"
+        data-testid="logo-container"
+      >
+        <img
+          alt="Logo"
+          data-nimg="1"
+          data-testid="logo"
+          decoding="async"
+          height="100"
+          loading="lazy"
+          src="/images/stellart.svg"
+          style="color: transparent;"
+          width="190"
+        />
+      </div>
+      <span
+        arial-label="Burger button"
+        class="menu_btn btn_burger"
+        data-testid="btnBurger"
+      >
+        <span
+          class="burger"
+        >
+          <span
+            class="line"
+          />
+          <span
+            class="line"
+          />
+          <span
+            class="line"
+          />
+        </span>
+      </span>
+      <div
+        class="links_container  "
+        data-testid="menu"
+      >
+        <span
+          class="btn_close btn_close_menu_closed"
+          data-testid="btnClose"
+        >
+          <span
+            class="line"
+          />
+          <span
+            class="line"
+          />
+        </span>
+        <ul>
+          <li
+            class="link "
+            data-testid="btnNav1"
+          >
+            <a
+              href="/home"
+            >
+              Home
+            </a>
+          </li>
+          <li
+            class="link "
+            data-testid="btnNav2"
+          >
+            <a
+              href="/about"
+            >
+              About
+            </a>
+          </li>
+          <li
+            class="link "
+            data-testid="btnNav3"
+          >
+            <a
+              href="/contact"
+            >
+              Contact
+            </a>
+          </li>
+          <li>
+            <a
+              arial-name="Button"
+              class="btn shadow undefined"
+              data-testid="btn"
+              href="/Login"
+              style="width: 170px; height: 49px;"
+            >
+              Login
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class=" overlay   "
+        data-testid="overlay"
+      />
+    </nav>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

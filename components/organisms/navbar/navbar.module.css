@@ -10,7 +10,6 @@
   padding-left: 6rem;
 }
 
-
 @media (max-width: 834px) {
   .navbar {
     flex-wrap: nowrap;
@@ -35,6 +34,7 @@
     top: -15px;
     flex-wrap: nowrap;
   }
+
   .image_container {
     padding: 0;
     z-index: -1;

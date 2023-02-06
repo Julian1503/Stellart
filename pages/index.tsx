@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Navbar from "@/components/navbar/Navbar";
+import Navbar from "@/components/organisms/navbar/Navbar";
 import localFont from "@next/font/local";
 import { NavLink } from "@/constants/types";
 
@@ -35,7 +35,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Create Next App</title>
       </Head>
-      <Navbar links={links}/>
+      <Navbar links={links} iconSrc={"/images/stellart.svg"}/>
     </main>
   );
 }
